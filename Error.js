@@ -20,4 +20,4 @@ function test_prime(n)
     return true;  
   }
 }
-test_prime(2);
+test_prime();
