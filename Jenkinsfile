@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo input('do you want to Proceed')
             }
         }
         stage('Deploy') {
